@@ -27,9 +27,9 @@ int main() {
 
     if (average >= 90)
         cout << "Grade: A (Excellent)";
-    else if (average >= 75)
+    else if (average >= 85)
         cout << "Grade: B (Very Good)";
-    else if (average >= 60)
+    else if (average >= 75)
         cout << "Grade: C (Passed)";
     else
         cout << "Grade: F (Failed)";
